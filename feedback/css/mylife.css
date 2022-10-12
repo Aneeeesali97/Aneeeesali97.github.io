@@ -1,0 +1,210 @@
+h1{ font-family: 'Lobster', cursive;
+color:rgb(129, 152, 161);
+text-align: center;}
+
+
+h3{font-family: 'Oswald', sans-serif;}
+h2{
+font-family: 'Oswald', sans-serif;
+margin: 10px;
+text-align: center;
+color:rgb(129, 152, 161);}
+
+.flex-container{
+display: flex;
+flex-direction: column;
+background-color: lightgray;
+border: 2px solid;
+
+
+}
+.flex-container h3{
+
+
+column-width:40in;
+text-align: center;
+
+}
+a:link{ color: black;
+
+text-decoration: none;    }
+a:visited{
+color: black;
+text-decoration: none;  }
+
+a:hover{color: red;
+text-decoration: none;
+cursor: pointer;}
+
+a:active{color: black;
+text-decoration: none;}
+@media screen and (min-width:800px) {
+
+.flex-container{
+display: flex;
+flex-direction: row;
+
+border: 2px solid;
+
+background-color: lightgray;
+}
+
+}
+
+
+
+
+form{
+display: grid;
+
+margin: 0 auto;
+padding: 1em;
+
+
+}.date{margin-top: 15px;}
+.form-field1{margin-top: 10px;}
+.flexa-container{ display: flex;
+
+column-width:8in;
+
+justify-content: center;
+
+
+}.flexa-container p{column-width:8in;
+
+}
+
+
+fieldset{
+display: block;
+
+
+}
+main{
+
+
+row-gap: 1rem;
+
+
+} .button input{
+
+width: 310px;
+}
+
+label{
+
+text-align:left;
+}
+.date input,.radio,.form-field input,.form-field1 input{
+
+padding: 0.5rem;
+border: none;
+width:max-content;
+border-bottom: 1px solid lightgray;
+width:250px;
+
+}
+.form{ display: inline;
+
+}
+.radio{
+padding: 8px;
+border: 1px solid ;
+border-radius: 4px;
+
+}
+.check{margin-top: 20px;}
+fieldset{
+
+border:none;
+margin-left: 0;
+
+}.range input{ width: 280px;
+}
+
+.range label{margin-bottom: 10px;
+margin-top: 10px;}
+
+.Availability{ margin-top: 18px;}
+.button{ margin-top: 20px;}
+
+@media screen and (min-width:1200px) {
+form {
+display: grid;
+
+grid-template-columns:repeat(3,1fr);
+margin-right: 0;
+
+}
+h2{text-align: left;}
+
+.form-field{ grid-column: 1;
+
+}
+.date{
+grid-column: 2;
+
+}
+.av{
+grid-column: 2;
+}
+
+.range{
+grid-column: 3;
+
+}.check{
+grid-column:1;
+
+}
+fieldset{ grid-column:1/4;
+grid-row: 2/2;
+}
+.button {
+grid-column: 1/4;
+
+
+}
+
+
+
+.form-field input,.date input{display: block;
+margin-top: 2px;
+margin-bottom: 6px;
+
+
+}
+
+fieldset{
+
+border:none;
+margin-top: 80px;
+gap: 20px;
+
+}
+.button input{ width: 1200px;
+
+align-items: center;}
+
+.range input{ width: 280px;
+margin-top: 20px;}
+
+.range label{margin-bottom: 10px;}
+input[type="submit"]:hover,
+input[type="reset"]:hover
+{
+cursor: pointer;
+}
+
+
+
+
+
+
+
+
+}
+
+                        
+          
+      
+  
